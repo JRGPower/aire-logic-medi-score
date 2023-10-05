@@ -41,12 +41,13 @@ app.get("/css/:filename", (req, res) => {
   res.sendFile(__dirname + `/css/${filename}`);
 });
 
-
 //Routes
+app.get("/", (req, res) => {
+  res.render("index");
+});
+
 app.use("/patients", patientsRoutes);
 app.use("/new-record", newRecordRoutes);
-
-//To Tidy up or delete
 
 app.use((req, res) => {
   res.status(404).render("404", { title: "404" });

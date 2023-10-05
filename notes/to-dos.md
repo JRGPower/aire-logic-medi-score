@@ -4,9 +4,9 @@ In no particular order:
 
 - Abstract DB connection out of app.js
 - Find a better way to handle alerts other than just changing CSS styling
-- Re-evaluate conditions for alerts to show
+- Re-evaluate conditions for alerts to show based on healthcare information
 
-- Medi-scor-calc function to pass some kind of error visable in front end to warn if a Mediscore is calculated with incomplete data. eg observation is missing temperature.
+- Medi-score-calc function to pass some kind of error visable in front end to warn if a Mediscore is calculated with incomplete data. eg observation is missing temperature.
 
 - Improve medi-score-calc function to avoid using if-else chaining - evaluate if there is a better pattern / method
 
