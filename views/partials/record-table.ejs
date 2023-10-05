@@ -1,0 +1,35 @@
+<div class="record-list-wrapper">
+  <div class="record-grid-header-container">
+    <div class="grid-col-header">Medi-Score</div>
+    <div class="grid-col-header">Time</div>
+    <div class="grid-col-header">On O2</div>
+    <div class="grid-col-header">CVPU</div>
+    <div class="grid-col-header">Resp. Rate</div>
+    <div class="grid-col-header">O2 Sat. %</div>
+    <div class="grid-col-header">Temp</div>
+    <div class="grid-col-header">CPG</div>
+    <div class="grid-col-header">Patient Fasting</div>
+    <div class="grid-col-header">Comments</div>
+  </div>
+  <div class="record-grid-container">
+    <% if (records.length > 0) { %> <% records.forEach(record => { %>
+    <div class="grid-item"><%= record.mediScore %></div>
+    <div class="grid-item">
+      <%= record.formattedDateTime || record.createdAt %>
+    </div>
+    <div class="grid-item"><%= record.observation.oxygen ? "Yes" : "No" %></div>
+    <div class="grid-item"><%= record.observation.cvpu ? "Yes" : "No"%></div>
+    <div class="grid-item"><%= record.observation.respirationRate %></div>
+    <div class="grid-item"><%= record.observation.spO2 %></div>
+    <div class="grid-item"><%= record.observation.temperature %></div>
+    <div class="grid-item"><%= record.observation.cbg.value %></div>
+    <div class="grid-item"><%= record.observation.cbg.fasting %></div>
+    <div class="grid-item"><%= record.observation.comments %></div>
+
+    <% }) %>
+
+    <% } else { %>
+    <div class="grid-item" colspan="10">There are no records to display...</div>
+    <% } %>
+  </div>
+</div>

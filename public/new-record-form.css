@@ -1,0 +1,83 @@
+/* new-record form*/
+form.new-record {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+form.new-record label {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin-right: 20px;
+  width: 210px;
+}
+
+form.new-record input[readonly] {
+  width: 20%;
+  text-align: left;
+  font-size: large;
+  font-weight: normal;
+  cursor: default;
+  pointer-events: none;
+}
+
+.new-record-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  font-size: large;
+}
+
+.new-record-grid-container > .grid-item {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.new-record-grid-container > .grid-item div {
+  display: flex;
+  align-items: center;
+}
+
+.new-record-grid-container > .grid-item label {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  margin-right: 20px;
+  width: 210px;
+}
+
+.new-record-grid-container > .grid-item label.radio-label {
+  display: inline-block;
+  text-align: left;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.new-record-grid-container > .grid-item input[type="number"] {
+  text-align: right;
+  width: 20%;
+  font-size: inherit;
+}
+
+.new-record-grid-container > .grid-item input[type="datetime-local"] {
+  width: 215px;
+  font-size: inherit;
+  padding: 5px;
+}
+
+.new-record-grid-container > .grid-item input[type="radio"] {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.new-record-grid-container > textarea {
+  width: 100%;
+  text-align: left;
+  font-size: inherit;
+  padding: 5px;
+  vertical-align: middle;
+}

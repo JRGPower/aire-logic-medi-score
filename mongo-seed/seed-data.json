@@ -1,0 +1,930 @@
+[
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 17,
+      "spO2": 100,
+      "temperature": 37.6,
+      "cbg": {
+        "value": 6,
+        "fasting": false
+      },
+      "time": "2023-10-02T21:20:11.588Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 17,
+      "spO2": 97,
+      "temperature": 37.5,
+      "cbg": {
+        "value": 8,
+        "fasting": false
+      },
+      "time": "2023-10-03T01:34:12.658Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 15,
+      "spO2": 95,
+      "temperature": 37.6,
+      "cbg": {
+        "value": 7,
+        "fasting": false
+      },
+      "time": "2023-10-03T05:38:04.801Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 13,
+      "spO2": 100,
+      "temperature": 37,
+      "cbg": {
+        "value": 7,
+        "fasting": false
+      },
+      "time": "2023-10-03T09:19:13.336Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 20,
+      "spO2": 100,
+      "temperature": 38,
+      "cbg": {
+        "value": 6,
+        "fasting": false
+      },
+      "time": "2023-10-03T13:32:51.189Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 19,
+      "spO2": 98,
+      "temperature": 37.2,
+      "cbg": {
+        "value": 6,
+        "fasting": false
+      },
+      "time": "2023-10-03T17:20:15.399Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 20,
+      "spO2": 99,
+      "temperature": 36.4,
+      "cbg": {
+        "value": 7,
+        "fasting": false
+      },
+      "time": "2023-10-03T21:39:02.719Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 13,
+      "spO2": 95,
+      "temperature": 36.2,
+      "cbg": {
+        "value": 7,
+        "fasting": false
+      },
+      "time": "2023-10-04T01:33:41.957Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 16,
+      "spO2": 96,
+      "temperature": 36.8,
+      "cbg": {
+        "value": 8,
+        "fasting": false
+      },
+      "time": "2023-10-04T05:20:54.565Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 13,
+      "spO2": 100,
+      "temperature": 37.4,
+      "cbg": {
+        "value": 6,
+        "fasting": false
+      },
+      "time": "2023-10-04T09:16:05.209Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 15,
+      "spO2": 98,
+      "temperature": 36.2,
+      "cbg": {
+        "value": 6,
+        "fasting": false
+      },
+      "time": "2023-10-04T13:33:14.227Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "001",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 16,
+      "spO2": 98,
+      "temperature": 36.9,
+      "cbg": {
+        "value": 7,
+        "fasting": false
+      },
+      "time": "2023-10-04T17:14:57.990Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 28,
+      "spO2": 92,
+      "temperature": 36.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-01T21:34:09.468Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 25,
+      "spO2": 89,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T01:30:22.444Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 21,
+      "spO2": 88,
+      "temperature": 36.9,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T05:12:17.093Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 26,
+      "spO2": 90,
+      "temperature": 37.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T09:35:57.243Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 20,
+      "spO2": 93,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T13:29:47.815Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 22,
+      "spO2": 92,
+      "temperature": 38,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T17:16:34.525Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 28,
+      "spO2": 91,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T21:23:23.223Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 21,
+      "spO2": 90,
+      "temperature": 37.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T01:10:27.439Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 28,
+      "spO2": 92,
+      "temperature": 36.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T05:19:41.730Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 23,
+      "spO2": 89,
+      "temperature": 36.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T09:30:09.410Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 25,
+      "spO2": 91,
+      "temperature": 37.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T13:16:05.974Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 26,
+      "spO2": 89,
+      "temperature": 37.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T17:16:18.353Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 21,
+      "spO2": 92,
+      "temperature": 38.9,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T21:22:59.185Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 23,
+      "spO2": 90,
+      "temperature": 38.5,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T01:11:49.267Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 20,
+      "spO2": 89,
+      "temperature": 38.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T05:11:22.799Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 29,
+      "spO2": 90,
+      "temperature": 38.4,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T09:24:12.357Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 24,
+      "spO2": 89,
+      "temperature": 38.5,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T13:16:57.919Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "002",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 25,
+      "spO2": 92,
+      "temperature": 38.5,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T17:16:07.868Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 11,
+      "spO2": 90,
+      "temperature": 36.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T13:34:15.901Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 11,
+      "spO2": 90,
+      "temperature": 37.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T17:32:00.849Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 12,
+      "spO2": 90,
+      "temperature": 37,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T21:28:10.934Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 10,
+      "spO2": 89,
+      "temperature": 37.5,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T01:21:53.454Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 12,
+      "spO2": 89,
+      "temperature": 36.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T05:29:43.262Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 12,
+      "spO2": 90,
+      "temperature": 37.5,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T09:34:14.650Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 10,
+      "spO2": 86,
+      "temperature": 37.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T13:29:56.758Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 11,
+      "spO2": 88,
+      "temperature": 37.6,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T17:19:10.243Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 9,
+      "spO2": 25,
+      "temperature": 36.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T21:19:22.121Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 10,
+      "spO2": 90,
+      "temperature": 36.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T01:29:59.998Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 11,
+      "spO2": 90,
+      "temperature": 36.8,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T05:35:06.663Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 10,
+      "spO2": 89,
+      "temperature": 36.8,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T09:13:08.861Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 10,
+      "spO2": 94,
+      "temperature": 36.7,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T13:12:06.902Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "003",
+    "observation": {
+      "oxygen": true,
+      "cvpu": false,
+      "respirationRate": 9,
+      "spO2": 90,
+      "temperature": 36.4,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T17:29:30.477Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 14,
+      "spO2": 96,
+      "temperature": 39.1,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T13:37:26.747Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 15,
+      "spO2": 94,
+      "temperature": 39.1,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T17:38:05.315Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 16,
+      "spO2": 96,
+      "temperature": 39.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-02T21:13:06.977Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 16,
+      "spO2": 95,
+      "temperature": 39.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T01:19:16.892Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 16,
+      "spO2": 96,
+      "temperature": 39,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T05:33:59.693Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 14,
+      "spO2": 94,
+      "temperature": 38.4,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T09:24:52.830Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 15,
+      "spO2": 94,
+      "temperature": 38.1,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T13:23:41.732Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": true,
+      "respirationRate": 14,
+      "spO2": 94,
+      "temperature": 38.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T17:27:40.057Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 14,
+      "spO2": 94,
+      "temperature": 38.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-03T21:38:09.571Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 15,
+      "spO2": 97,
+      "temperature": 38.1,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T01:09:50.535Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 14,
+      "spO2": 96,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T05:24:06.668Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 15,
+      "spO2": 95,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T09:30:47.456Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 14,
+      "spO2": 96,
+      "temperature": 37.3,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T13:28:02.166Z",
+      "comments": ""
+    }
+  },
+  {
+    "patientId": "004",
+    "observation": {
+      "oxygen": false,
+      "cvpu": false,
+      "respirationRate": 16,
+      "spO2": 96,
+      "temperature": 37.2,
+      "cbg": {
+        "value": null,
+        "fasting": null
+      },
+      "time": "2023-10-04T17:23:44.343Z",
+      "comments": ""
+    }
+  }
+]

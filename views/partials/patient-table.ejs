@@ -1,0 +1,51 @@
+<div class="patients-list-wrapper">
+  <link rel="stylesheet" href="/css/alerts.css" />
+  <div class="patient-grid-header-container">
+    <div class="grid-col-header">Patient ID</div>
+    <div class="grid-col-header">Latest Obs Time</div>
+    <div class="grid-col-header">
+      <div style="display: flex; flex-direction: column">
+        <div>Medi-Score</div>
+        <div class="grid-col-sub-header">Latest</div>
+      </div>
+    </div>
+    <div class="grid-col-header">
+      <div style="display: flex; flex-direction: column">
+        <div>Medi-Score</div>
+        <div class="grid-col-sub-header">12hr Average</div>
+      </div>
+    </div>
+    <div class="grid-col-header"></div>
+    <div class="grid-col-header"></div>
+  </div>
+  <div class="patient-grid-container">
+    <% if (patients.length > 0) { %> <% patients.forEach(patient => { %>
+
+    <div class="grid-item"><%= patient.patientId %></div>
+    <div class="grid-item"><%= patient.formattedDateTime %></div>
+    <div class="grid-item">
+      <div class="<%= patient.scoreAlertClass %>"><%= patient.mediScore %></div>
+    </div>
+    <div class="grid-item">
+      <div class="<%= patient.avgAlertClass %>">
+        <%= patient.mediScoreAvg %>
+      </div>
+    </div>
+    <div class="grid-item">
+      <a href="/patients/<%= patient.patientId %>">
+        <div>See more details</div>
+      </a>
+    </div>
+    <div class="grid-item">
+      <a href="/new-record/<%= patient.patientId %>">
+        <div>Add new observation</div>
+      </a>
+    </div>
+
+    <% }) %> <% } else { %>
+    <div class="grid-item">
+      <div colspan="10">There are no patients to display...</div>
+    </div>
+    <% } %>
+  </div>
+</div>

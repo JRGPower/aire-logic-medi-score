@@ -1,0 +1,25 @@
+.alert-red {
+  background-color: rgba(255, 0, 0, 0.65);
+}
+.alert-amber {
+  background-color: rgba(255, 136, 0, 0.753);
+}
+.alert-yellow {
+  background-color: rgba(255, 230, 0, 0.753);
+}
+.alert-green {
+  background-color: rgba(43, 255, 0, 0.692);
+}
+
+.alert-red,
+.alert-amber,
+.alert-yellow,
+.alert-green,
+.alert-none {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}

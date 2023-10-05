@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+body {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  background: #005eb8;
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 10px 10px 10px;
+  margin: 0px;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1 {
+  font-size: 3em;
+  margin: 20px;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: grey;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: all 0.4s ease;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+a {
+  color: rgba(12, 12, 252, 0.623);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+  color: darkblue;
+}
+
+.record {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.record-grid-container,
+.record-grid-header-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr) 1.5fr;
+  border-bottom: 5px solid gray;
+  text-align: center;
+}
+
+.patient-grid-header-container,
+.patient-grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: 5px solid gray;
+  text-align: center;
+}
+.patient-grid-header-container > .grid-col-header,
+.record-grid-header-container > .grid-col-header {
+  padding: 5px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient-grid-container > .grid-item,
+.record-grid-container > .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px lightgray;
+}

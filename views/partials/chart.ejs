@@ -1,0 +1,40 @@
+<!-- TODO -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<canvas id="lineChart" width="50" height="20"></canvas>
+<script type="text/javascript">
+  // Get the data from the server passed as a variable
+  const records = "somedata";
+
+  var chartData = {
+    labels: chartLabels,
+    values: chartValues,
+  };
+
+  // Create a line chart using Chart.js
+  var ctx = document.getElementById("lineChart").getContext("2d");
+  var lineChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: chartData.labels,
+      datasets: [
+        {
+          label: "Line Chart",
+          data: chartData.values,
+          borderColor: "rgba(75, 192, 192, 1)",
+          borderWidth: 2,
+          fill: false,
+        },
+      ],
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 10,
+        },
+      },
+    },
+  });
+</script>
