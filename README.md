@@ -2,15 +2,15 @@
 
 This is the project I have completed for the AireLogi - Medi Score Calculation tech test.
 
-The main function is to calculate Medi-Scores in accordance with the data provided in the Application requirements. In order to demonstrate this functionality I have written a simple app that displays observation data to a browser.
+The main function is to calculate Medi-Scores in accordance with the data provided in the tech test requirements. In order to demonstrate this functionality I have written a simple app that displays patient observation data and medi-scores in a browser.
 
 The concept of this app is a simulation of an interface that could be on a hospital ward or other care facility to enable the recording, retrieval and trending of observation data, with the aid of the Medi Score as a summary score for the patients in care.
 
-The app is written in Javascript, using Node js, express, and ejs to serve HTML pages. The data is stored and retrieved using mongoDB with mongoose
+The app is written in Javascript, using Node js, express, ejs to serve HTML pages, jest for unit tests. The data is stored and retrieved using mongoDB with mongoose.
 
 ## Requirements
 
-The app will run locally with docker compose and node. Versions used are listed, older versions might not work?
+The app will run locally in containers with docker compose and node for js scripts.
 
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
@@ -57,7 +57,7 @@ http://localhost:3000/new-record
 
 ## Database
 
-The data will not persist between each load of the app, it will be re-seeded from the seed-data.json. For data to persist, the docker-compose.yml can be modified to use a local volume to the following:
+The data will not persist between each load of the app, it will be re-seeded from the seed-data.json. To stop the db from seeding on each build, and for the data to persist, the docker-compose.yml can be modified to the following to use volumes:
 
 ```
 version: "3"
@@ -83,7 +83,7 @@ services:
 
 ```
 
-This will allow any records added to the database using the fron-end form to persist between re-loads
+This will allow any records added to the database using the fron-end form to persist between re-loads.
 
 ## Notes
 
